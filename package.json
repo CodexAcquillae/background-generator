@@ -1,0 +1,23 @@
+{
+  "name": "background-generator",
+  "version": "1.0.0",
+  "description": "A gradient background RGB code generator website.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify script.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodexAcquillae/background-generator.git"
+  },
+  "author": "arndzk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodexAcquillae/background-generator/issues"
+  },
+  "homepage": "https://github.com/CodexAcquillae/background-generator#readme",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
